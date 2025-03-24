@@ -1,0 +1,12 @@
+<view class="wrapper">
+  <view class="btn btn-mg" bindtap="startGame">新游戏</view>
+  <view class="over" wx:if="{{isGameOver}}">
+    <view>游戏结束!</view>
+    <view class="btn" bindtap="startGame">重新开始</view>
+  </view>
+  <view class="box">
+    <view class="row" wx:for="{{cellArr}}" wx:key="index" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+      <view class="cell cell-con-{{item}}" wx:for="{{item}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+</view>

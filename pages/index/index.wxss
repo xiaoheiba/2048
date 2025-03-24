@@ -1,0 +1,110 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 680rpx;
+  height: 680rpx;
+  justify-content: space-between;
+  border-radius: 10rpx;
+  background: #C1B09D;
+  margin-top: 100rpx;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cell {
+  width: 150rpx;
+  height: 150rpx;
+  background: #CDC1B4;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10rpx;
+  margin: 10rpx;
+  font-size: 35px;
+  font-weight: bold;
+}
+.cell-con-0 {
+  color: transparent; /* 完全透明，隐藏文字 */
+}
+.cell-con-2 { background: #eee4da; }
+.cell-con-4 { background: #ede0c8; }
+.cell-con-8 {
+  color: #f9f6f2;
+  background: #f2b179;
+}
+.cell-con-16 {
+  color: #f9f6f2;
+  background: #f59563;
+}
+.cell-con-32 {
+  color: #f9f6f2;
+  background: #f67c5f;
+}
+.cell-con-64 {
+  color: #f9f6f2;
+  background: #f65e3b;
+}
+.cell-con-128 {
+  color: #f9f6f2;
+  background: #edcf72;
+  font-size: 30px;
+}
+.cell-con-256 {
+  color: #f9f6f2;
+  font-size: 30px;
+  background: #edcc61;
+}
+.cell-con-512 {
+  color: #f9f6f2;
+  font-size: 30px;
+  background: #edc850;
+}
+.cell-con-1024 {
+  color: #f9f6f2;
+  font-size: 25px;
+  background: #edc53f;
+}
+.cell-con-2048 {
+  color: #f9f6f2;
+  font-size: 25px;
+  background: #edc22e;
+}  
+
+
+.btn {
+  display: inline-block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: #f9f6f2;
+  background: #8f7a66;
+}
+
+.over {
+  position: absolute;
+  padding-top: 40vw;
+  width: 400px;
+  height: 400px;
+  background: rgba(238, 228, 218, 0.8);
+  z-index: 1000;
+  border-radius: 5px;
+  text-align: center;
+  color: #8f7a66;
+}
+.btn-mg {
+  margin-bottom: 10px;
+}
